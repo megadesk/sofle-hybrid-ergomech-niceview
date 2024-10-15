@@ -1,10 +1,9 @@
 /*
- * Copyright (c) 2020 The ZMK Contributors
+ * Copyright (c) 2020 The ZMK Contributors s
  *
  * SPDX-License-Identifier: MIT
  */
 
-# test 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
