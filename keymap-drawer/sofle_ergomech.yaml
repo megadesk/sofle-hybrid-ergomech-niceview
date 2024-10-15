@@ -196,3 +196,7 @@ layers:
   - C
   - D
   - E
+combos:
+- p: [52, 55]
+  k: LSHFT
+  l: [default]
