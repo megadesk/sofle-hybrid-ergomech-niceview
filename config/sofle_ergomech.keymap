@@ -10,10 +10,51 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
+#include <dt-bindings/zmk/mouse.h>
+
 #define BASE 0
 #define LOWER 1
 #define RAISE 2
 #define ADJUST 3
+
+#define MACRO(name, keys)                 \
+name: name##_macro {                      \
+    compatible     = "zmk,behavior-macro";\
+    tap-ms         = <1>;                 \
+    wait-ms        = <1>;                 \
+    #binding-cells = <0>;                 \
+    bindings       = <keys>;              \
+};
+
+/ {
+    macros {
+        MACRO(ESC_A,  &kp ESC &kp A)
+        MACRO(ESC_B,  &kp ESC &kp B)
+        MACRO(ESC_M,  &kp ESC &kp M)
+        MACRO(ESC_Y,  &kp ESC &kp Y)
+        MACRO(ESC_C,  &kp ESC &kp C)
+        MACRO(TAB_R,  &kp LA(LGUI) &kp RIGHT)
+        MACRO(TAB_L,  &kp LA(LGUI) &kp LEFT)
+        MACRO(SCNSHOT,  &kp LSHFT &kp LGUI &kp 4)
+        MACRO(vim_q,  &kp COLON &kp Q &kp EXCL)
+        MACRO(vim_s,  &kp COLON &kp X)
+    };
+};
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_shift {
+            timeout-ms = <500>;
+            key-positions = <52 55>;
+            bindings = <&kp LSHFT>;
+            layers = <0>;
+        };
+    };
+};
+
+
+
 
 / {
     // Activate ADJUST layer by pressing raise and lower
