@@ -145,21 +145,10 @@ layers:
   - ''
   - ''
   - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - RGB BRD
-  - RGB BRI
-  - ''
+  - Gui+ W
+  - '&TAB_L'
+  - Gui+ T
+  - '&TAB_R'
   - ''
   - ''
   - ''
@@ -168,6 +157,17 @@ layers:
   - ''
   - ''
   - {type: held}
+  - Gui+ `
+  - Ctl+ LEFT
+  - Gui+ TAB
+  - Ctl+ RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -180,7 +180,7 @@ layers:
   - ''
   - ''
   - ''
-  - RGB TOG
+  - ''
   - ''
   - ''
   - ''
