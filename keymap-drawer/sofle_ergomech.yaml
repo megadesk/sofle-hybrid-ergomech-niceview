@@ -1,36 +1,36 @@
 layers:
   default: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, raise, A, S, D, F, G, H, J, K, L, ;, lower, LSHFT,
-    Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LCTRL, LALT, LGUI, RET, lower, raise, SPACE, RGUI, lower, RCTRL, '&mkp LCLK', '&mkp MB5', PG UP, '&mkp MB4', PG DN]
+    Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LCTRL, LALT, LGUI, RET, lower, raise, SPACE, RGUI, RALT, RCTRL, '&mkp LCLK', '&mkp MB5', PG UP, '&mkp MB4', PG DN]
   lower:
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
-  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&ESC_M'
-  - '&ESC_A'
-  - Gui+ V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '-'
+  - '='
   - END
   - (
   - UP
   - )
   - '|'
-  - {t: ▽, type: trans}
+  - '`'
   - TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&ESC_M'
+  - '&ESC_A'
   - '&ESC_B'
+  - Gui+ V
   - Gui+ C
   - BSPC
   - LEFT
@@ -62,35 +62,35 @@ layers:
   - '-'
   - {t: ▽, type: trans}
   - '&mkp LCLK'
-  - '&ESC_M'
-  - '&ESC_A'
-  - '&ESC_Y'
-  - '&ESC_B'
+  - '&mkp MB5'
+  - PG UP
+  - '&mkp MB4'
+  - PG DN
   raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - EP TOG
+  - Gui+ W
+  - '&TAB_L'
+  - Gui+ T
+  - '&TAB_R'
   - '&SCNSHOT'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - PG UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -102,7 +102,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -114,7 +114,7 @@ layers:
   - Sft+ =
   - Sft+ ]
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '1'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,11 +126,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
+  - '&mkp LCLK'
+  - '&mkp MB5'
+  - PG UP
+  - '&mkp MB4'
+  - PG DN
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
@@ -145,10 +145,10 @@ layers:
   - ''
   - ''
   - EP TOG
-  - Gui+ W
-  - '&TAB_L'
-  - Gui+ T
-  - '&TAB_R'
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -157,10 +157,10 @@ layers:
   - ''
   - ''
   - {type: held}
-  - Gui+ `
-  - Ctl+ LEFT
-  - Gui+ TAB
-  - Ctl+ RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
