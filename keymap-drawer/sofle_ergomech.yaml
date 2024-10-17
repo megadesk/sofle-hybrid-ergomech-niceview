@@ -30,8 +30,8 @@ layers:
   - '&ESC_M'
   - '&ESC_A'
   - '&ESC_B'
-  - Gui+ V
   - Gui+ C
+  - Gui+ V
   - BSPC
   - LEFT
   - DOWN
